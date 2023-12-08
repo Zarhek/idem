@@ -1,0 +1,551 @@
+{
+    "dup_type": "lite",
+    "created": "2023-12-07 13:00:42",
+    "version_dup": "1.5.7.1",
+    "version_wp": "6.4.1",
+    "version_db": "10.6.12",
+    "version_php": "8.1.2-1ubuntu2.14",
+    "version_os": "Linux",
+    "blogname": "CV St\u00e9phane Vincensini",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$gZe5oT.1F.lIb4zFOFU\/zuqLb4rToEIuUd54Au.IYdVo\/\/cTypgCa",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "www.wordpress-vincensini.com",
+            "path": "\/",
+            "blogname": "CV St\u00e9phane Vincensini",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "stephane",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "http:\/\/www.wordpress-vincensini.com",
+            "fullSiteUrl": "http:\/\/www.wordpress-vincensini.com",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/var\/www\/html\/wordpress\/wp-content\/uploads",
+            "fullUploadSafePath": "\/var\/www\/html\/wordpress\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/www.wordpress-vincensini.com\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_general_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "wordpress",
+        "tablesBaseCount": 13,
+        "tablesFinalCount": 13,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 221,
+        "tablesSizeOnDisk": 2850816,
+        "tablesList": {
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 164,
+                "insertedRows": 166,
+                "size": 2211840
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 13,
+                "insertedRows": 14,
+                "size": 49152
+            },
+            "wp_posts": {
+                "inaccurateRows": 17,
+                "insertedRows": 17,
+                "size": 81920
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 20,
+                "insertedRows": 21,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.6.12",
+        "versionComment": "Ubuntu 22.04",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "20231207_cvstephanevincensini",
+        "packageHash": "0575e16-07130042",
+        "secondaryHash": "bc314da-07130042"
+    },
+    "fileInfo": {
+        "dirCount": 528,
+        "fileCount": 3954,
+        "size": 40615806
+    },
+    "wpInfo": {
+        "version": "6.4.1",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/var\/www\/html\/wordpress",
+        "targetPaths": [
+            "\/var\/www\/html\/wordpress"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "stephane",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/var\/www\/html\/wordpress\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "3,s}FfO3;rs_l^[~r>XN2a JJOz%?,}x\/+Yno]isSi($ j}|=dkV42C+#gzD9Uj)",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": ";tnaX]L=nJ6bWLB.Fs+=RfvG7yf{cKAFq:l|{wAqCP4LE};AA]Yn$,]Tc9I!\/iqU",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "\/o(!9 (w}]@ooBTr%^3;@tSD|(nO>:QyG5C\/kixW>mthqx;w10?3M7-(}`[iHR#z",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "-_|s7^.TvO@PT[wo<{[F+H]wYUz.L6<L`.kDZudVefB>[+BstE$d2YsCB]wS|hIa",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "6%P<bx}c!cf8lctT.^aR]Q5fJXdi0AHM_?~VYx$to=L!l067B9ABoi[[y?\/WF+J^",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "f2Sa(#,pUQaI_Ap-waV)I#m_RGVAmXj|\/LYJ[LZ*])%bUO~46=3Foei9ESY.\/Az%",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "S|,Ts)Ji_[e+`$Nk-mVIV9]{V;3)B>Ms niKch@eMWy;@|!De(I-Af}7i\/eY9Y@V",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "a.,qEn5=[Fm$X B~9d~&fx,[y<#Tnc0(wjdFg6NVFjcx5]3&YOCy#M*HCdfY`y$C",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/www.wordpress-vincensini.com\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/www.wordpress-vincensini.com\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/themes\/twentytwentyfour",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/themes\/twentytwentyfour",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/www.wordpress-vincensini.com\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "http:\/\/www.wordpress-vincensini.com",
+                "homeUrl": "http:\/\/www.wordpress-vincensini.com",
+                "loginUrl": "http:\/\/www.wordpress-vincensini.com\/wp-login.php",
+                "contentUrl": "http:\/\/www.wordpress-vincensini.com\/wp-content",
+                "uploadBaseUrl": "http:\/\/www.wordpress-vincensini.com\/wp-content\/uploads",
+                "pluginsUrl": "http:\/\/www.wordpress-vincensini.com\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/www.wordpress-vincensini.com\/wp-content\/mu-plugins",
+                "themesUrl": "http:\/\/www.wordpress-vincensini.com\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/var\/www\/html\/wordpress",
+                    "abs": "\/var\/www\/html\/wordpress",
+                    "wpconfig": "\/var\/www\/html\/wordpress",
+                    "wpcontent": "\/var\/www\/html\/wordpress\/wp-content",
+                    "uploads": "\/var\/www\/html\/wordpress\/wp-content\/uploads",
+                    "plugins": "\/var\/www\/html\/wordpress\/wp-content\/plugins",
+                    "muplugins": "\/var\/www\/html\/wordpress\/wp-content\/mu-plugins",
+                    "themes": "\/var\/www\/html\/wordpress\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/var\/www\/html\/wordpress",
+                    "abs": "\/var\/www\/html\/wordpress",
+                    "wpconfig": "\/var\/www\/html\/wordpress",
+                    "wpcontent": "\/var\/www\/html\/wordpress\/wp-content",
+                    "uploads": "\/var\/www\/html\/wordpress\/wp-content\/uploads",
+                    "plugins": "\/var\/www\/html\/wordpress\/wp-content\/plugins",
+                    "muplugins": "\/var\/www\/html\/wordpress\/wp-content\/mu-plugins",
+                    "themes": "\/var\/www\/html\/wordpress\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-spam: Spam Protection",
+                "version": "5.3",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic - Anti-spam Team",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. Akismet Anti-spam keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-spam: Spam Protection",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.7.1",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "hello.php": {
+                "slug": "hello.php",
+                "name": "Hello Dolly",
+                "version": "1.7.2",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/hello-dolly\/",
+                "author": "Matt Mullenweg",
+                "authorURI": "http:\/\/ma.tt\/",
+                "description": "This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly<\/cite> in the upper right of your admin screen on every page.",
+                "title": "Hello Dolly",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": true
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.3",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.6",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "CV St\u00e9phane Vincensini"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20231207_cvstephanevincensini_0575e164d63701e45872_20231207130042_installer-backup.php",
+    "package_name": "20231207_cvstephanevincensini_0575e164d63701e45872_20231207130042_archive.zip",
+    "package_hash": "0575e16-07130042",
+    "package_notes": ""
+}
